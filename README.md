@@ -33,3 +33,15 @@ $ git status
 
 # log 확인
 $ git log
+
+# branch 목록 확인
+$ git branch
+
+# 원격 저장소에 있는 브랜치 내용 확인
+$ git branch -a
+
+#signin branch 생성
+$ git branch signin
+
+# branch 변경
+$ git checkout signin
