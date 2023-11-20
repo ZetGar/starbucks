@@ -1,1 +1,18 @@
-aabb
+# 개행문자(Newline)설정
+## macOS
+$ git config --global core.autocrlf input
+## Windows
+$ git config --global core.autocrlf true
+
+# 사용자정보
+##커밋(버전 생성)을 위한 정보등록
+$ git config --global user.name 'YOUR_NAME'
+$ git config --global user.email 'YOUR_EMAIL'
+
+# 구성확인
+## Q키를 눌러서 종료
+$ git confiig --global --list
+
+# 현재 프로젝트에서 변경사항 추적(버전관리)을 시작
+$ git init
+
