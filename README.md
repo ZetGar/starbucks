@@ -28,5 +28,8 @@ $ git add .
 # 메시지(-m)와 함께 버전을 생성
 $ git commit -m '프로젝트 생성'
 
-# 
+# 수정사항 발생한 파일 상태 확인
+$ git status
 
+#
+$ git log
