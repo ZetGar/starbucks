@@ -335,9 +335,47 @@ HEAD에서 한 버전 되돌리기
 ```
 
 > 현업에서는 reset 주의해서 사용
-
+<br/>
 ## branch명 변경하기
 ```bash
   $ git branch -m dev main
   $ git config --global init.defaultBranch main
 ```
+<br/>
+
+## gitignore를 나중에 만들었을때 파일/폴더 누락시키기
+```bash
+  $ git rm -r --cached .
+```
+<br/><br/>
+
+---
+
+<br/><br/>
+
+# Git 브랜치 전략 - Git Flow
+
+### main(master)
+기본 / 메인 / 제품 브랜치
+<br/><br/>
+
+
+### dev(develop)
+다음 제품 출시를 위해 여러 기능을 병합하는 브랜치
+<br/><br/>
+
+
+### feature/*
+각 기능 개발을 위한 브랜치
+<br/><br/>
+
+
+### release
+이번 제품 출시 직전 최종 테스트(QA)를 위한 브랜치
+<br/><br/>
+
+
+### hotfix
+제품에 버그가 확인되었을 때 긴급 수정을 위한 브랜치
+<br/><br/>
+
