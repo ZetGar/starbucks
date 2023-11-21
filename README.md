@@ -260,3 +260,27 @@ $ git status
 ``` bash
 $ git log
 ```
+<br/>
+
+## branch 목록 확인
+```bash
+$ git branch
+```
+<br/>
+
+## 원격 저장소에 있는 브랜치 내용 확인
+```bash
+$ git branch -a
+```
+<br/>
+
+## signin branch 생성
+```bash
+$ git branch signin
+```
+<br/>
+
+## branch 변경
+```bash
+$ git checkout signin
+```
